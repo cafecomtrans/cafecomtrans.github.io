@@ -16,19 +16,6 @@
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
   <script>
-  const currentHost = window.location.hostname;
-  if (/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
-    if (currentHost !== "mobile.cafecomtrans.workers.dev") {
-      window.location.href = "https://mobile.cafecomtrans.workers.dev";
-    }
-  } else {
-    if (currentHost !== "www.cafecomtrans.com" && currentHost !== "cafecomtrans.com") {
-      window.location.href = "https://www.cafecomtrans.com";
-    }
-  }
-  </script>
-
-  <script>
     (function(w,d,s,l,i){
       w[l]=w[l]||[];
       w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
